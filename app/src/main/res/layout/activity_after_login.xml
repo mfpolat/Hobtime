@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hobtimesocialapp.AfterLoginActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/actionBarHobtime"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#37474F"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/actionBarMessagesRL"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/message" />
+
+            <TextView
+                android:id="@+id/actionBarMessagesTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/afteLoginActivityHeaderTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Hobtime"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/actionBarMoreIV"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/more" />
+
+        <ImageView
+            android:id="@+id/actionBarShareIV"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/share" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/afterLoginFragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionBarHobtime"></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/hobtimeOptionLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/actionBarHobtime"
+        android:layout_marginTop="3dp"
+        android:background="#CFD8DC"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/shortCutViewCreateActivityTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="+ Create Activity"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/shortCutViewCreateGroupTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="+ Create Group"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/shortCutViewMyProfileMyTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="+ My Profile"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/shortCutViewSupportTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="+ Support"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/shortCutViewAboutTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="+ About Hobtime"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/shortCutViewLogoutTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="+ Logout"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

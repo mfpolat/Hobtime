@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hobtime  Social Activities</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="iagree"><![CDATA[I Agree with Terms & Conditions]]></string>
+    <string name="title_activity_after_login">AfterLoginActivity</string>
+    <string name="app_id">155617757856101</string>
+</resources>

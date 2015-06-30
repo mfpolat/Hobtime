@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hobtimeGreen" >#55DF25</color>
+    <color name="signUpYellow">#FDB61D</color>
+    <color name="loginBlue">#15A0F3</color>
+    <color name="facebookBlue">#3b5998</color>
+    <color name="actionBarColor">#37474F</color>
+    <color name="opacityCyan">#4018FFFF</color>
+    <color name="darkCyan">#E618FFFF</color>
+    <color name="mainbarcolor">#37474F</color>
+    <color name="maincolor1">#732D4B55</color>
+    <color name="opacitiTurkuaz">#7310DBEC</color>
+</resources>

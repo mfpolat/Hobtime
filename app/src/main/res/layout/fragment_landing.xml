@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#55DF25" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.hobtimesocialapp.LandingFragment">
+
+    <TextView
+        android:id="@+id/fragmentLandingHobtimeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:textSize="60sp"
+        android:text="Hobtime"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:gravity="center"
+        android:background="@color/signUpYellow"
+        android:padding="20dp"
+        android:textSize="35sp"
+        android:layout_above="@+id/landingFragmentLoginTV"
+        android:id="@+id/landingFragmentSignUpTV"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="LOG IN"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:background="@color/loginBlue"
+        android:padding="20dp"
+        android:id="@+id/landingFragmentLoginTV"
+        android:textColor="#ffffff"/>
+</RelativeLayout>

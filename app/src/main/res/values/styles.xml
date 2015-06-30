@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Widget.CustomSearch.ActionButton" parent="Widget.Sherlock.Light.ActionButton">
+    </style>
+</resources>

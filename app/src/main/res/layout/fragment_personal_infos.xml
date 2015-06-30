@@ -1,0 +1,160 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55DF25"
+    tools:context="com.com.hobtimesocialapp.app.LandingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:focusable="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <com.hobtimesocialapp.HobtimeTextView
+                android:id="@+id/personalInfosFragmentHobtimeTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Hobtime"
+                android:textColor="#ffffff"
+                android:textSize="60sp" />
+
+            <EditText
+                android:id="@+id/personelInfosFragmentFirstNameET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/profile"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="First Name"
+                android:imeOptions="actionNext"
+                android:padding="10dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/personelInfosFragmentLastNameeET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/profile"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="Last Name"
+                android:imeOptions="actionDone"
+                android:padding="10dp"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/loginBlue"
+                        android:padding="5dp"
+                        android:src="@drawable/camera" />
+
+                    <TextView
+                        android:id="@+id/personalInfosFragmentTakePicTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#d9d7d7"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Take A Photo"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/personalInfosFragmentTakenPicIV"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:src="@drawable/ic_launcher" />-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#b27fb2"
+                        android:padding="5dp"
+                        android:src="@drawable/galery" />
+
+                    <TextView
+                        android:id="@+id/personalInfosFragmentOpenGalleryTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#d9d7d7"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Select your Photo"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/personalInfosFragmentTakenGalleryIV"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:src="@drawable/ic_launcher" />-->
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/personalInfosFragmentSelectedPicIV"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/personalInfosFragmentNextTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/signUpYellow"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="NEXT"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

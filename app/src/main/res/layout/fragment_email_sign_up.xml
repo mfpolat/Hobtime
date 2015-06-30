@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55DF25"
+    tools:context="com.com.hobtimesocialapp.app.LandingFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <com.hobtimesocialapp.HobtimeTextView
+                android:id="@+id/emailSignUpFragmentHobtimeTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:text="Hobtime"
+                android:textColor="#ffffff"
+                android:textSize="60sp" />
+
+            <EditText
+                android:id="@+id/emailSignUpFragmentMailET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/profile"
+
+                android:gravity="center"
+                android:hint="E-Mail"
+                android:imeOptions="actionNext"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/emailSignUpFragmentPasswordET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/lock"
+                android:gravity="center"
+                android:hint="Password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/emailSignUpFragmentCB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/iagree"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/emailSignUpFragmentSignupTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/signUpYellow"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="SIGN UP"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/emailSignUpFragmentLoginTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Already a member ? Login now"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

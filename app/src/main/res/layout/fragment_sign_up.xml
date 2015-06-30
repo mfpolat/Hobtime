@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#55DF25" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.hobtimesocialapp.LandingFragment">
+
+    <com.hobtimesocialapp.HobtimeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:id="@+id/signupFragmentHobtimeTV"
+        android:textSize="60sp"
+        android:text="Hobtime"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-MAIL"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="@color/signUpYellow"
+        android:textSize="35sp"
+        android:layout_above="@+id/signUpFragmentFBTV"
+        android:id="@+id/signUpFragmentEmailTV"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="FACEBOOK"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="35sp"
+        android:id="@+id/signUpFragmentFBTV"
+        android:background="@color/facebookBlue"
+        android:textColor="#ffffff"/>
+</RelativeLayout>
